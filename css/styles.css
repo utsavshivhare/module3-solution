@@ -1,0 +1,151 @@
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Brushstroke, fantasy;
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 80px;
+ 
+}
+
+body {
+ 
+  background-color: pink;
+
+}
+
+p {
+  padding: 10px;
+  margin: 0;
+}
+
+.container {
+  width:100%;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+section {
+  border: 1px solid black;
+  background-color: #00FF99;
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+}
+section p{
+  font-weight: bold;
+  font-style: italic;
+  font-color:brown;
+  font-size: 1.2em;
+  margin-bottom: 30px
+}
+
+#p1 {
+   font-weight: bold;
+   font-size:2em;
+   color:brown;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#p2 {
+   font-weight: bold;
+   font-size:2em;
+   color:red;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#p3 {
+  
+  font-weight: bold;
+   font-size:2em;
+   color:purple;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#d1 {
+  margin-bottom:20px;
+  margin-top: 10px;
+}
+
+#d2 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#d3 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.navbar-brand p{
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #FC5F06;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+  background-color: yellow;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+
+
+#nav-list {
+  
+  color: #951C49;
+  text-align: center;
+
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color:black;
+ font-weight: bold;
+  font-size: 1.6em;
+
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  }
+
+h4{
+  text-align: center;
+  font-weight: bold;
+  font-color:black;
+}
